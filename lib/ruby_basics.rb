@@ -1,5 +1,5 @@
 def division(num1, num2)
- 
+ num1/num2
 end
 
 def assign_variable(value)
@@ -10,8 +10,8 @@ def argue
   
 end
 
-def greeting
-
+def greeting (name, age)
+  puts "Hello #{name}. You are #{age} years old."
 end
 
 def return_a_value
