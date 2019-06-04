@@ -14,8 +14,8 @@ def greeting (name, age)
   puts "Hello #{name}. You are #{age} years old."
 end
 
-def return_a_value
-  puts "Nice"
+def return_a_value (value = Nice)
+  Nice
 end
 
 def last_evaluated_value
